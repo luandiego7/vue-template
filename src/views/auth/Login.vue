@@ -67,11 +67,11 @@ export default {
 
       if(!this.v$.$error){
         try{
-          api.get('/sanctum/csrf-cookie').then( res => { console.log(res);
+          api.get('/sanctum/csrf-cookie').then( res => {
             api.post('/auth/login', {
               email: form.email,
               password: form.password
-            }).then((res) => { console.log(res)
+            }).then((res) => {
               if(res){
                 store.dispatch('setUser', res.data.user);
                 //store.dispatch('setToken', res.data.token);

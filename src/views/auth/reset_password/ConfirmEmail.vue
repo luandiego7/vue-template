@@ -60,7 +60,7 @@ export default {
           //api.get('/sanctum/csrf-cookie').then(response => {
             api.post('/api/auth/reset/confirm-email', {
               email: form.email,
-            }).then((res) => { console.log(res)
+            }).then((res) => {
               if(res){
                 form.email = '';
                 Swal.fire('Sucesso', 'Em alguns instantes você receberá um e-mail para redefinição da senha', 'success');

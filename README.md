@@ -1,29 +1,37 @@
-# vue-template
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://3.bp.blogspot.com/-MtMoG6dmS4o/Wv3JOjSemPI/AAAAAAAAArs/SDp-DSWGD1sn3JZtd6R2_BHXzk6x8yyPwCLcBGAs/s1600/vue.png" width="400"></a></p>
 
-This template should help get you started developing with Vue 3 in Vite.
+<p align="center">
+<a href="https://vuejs.org/"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+</p>
 
-## Recommended IDE Setup
+## Vue.js Template SPA
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+This is a simple template for start a project with `Vue.js` 3 SPA. This project is using `composition api`, `vuex`, `axios` and more...
 
-## Customize configuration
+- Register a new user
+- Login/Logout
+- Recover password
+- Update profile and photo
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+## Requirements
 
-```sh
+- Node.js
+- Npm or yarn
+- API template (Laravel template)
+
+## Start project
+
+- In the desire folder run in the terminal:
+```bash
+git clone https://github.com/luandiego7/vue-template.git
+```
+- Then run in the terminal for to install the dependencies:
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
+- Start the vue server running
+```bash
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```

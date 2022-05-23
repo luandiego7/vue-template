@@ -262,7 +262,6 @@ export default {
         formData.append('photo', file);
 
         api.post('/api/user/photo', formData, {headers:{'content-type': 'multipart/form-data'}}).then((res) => {
-          console.log(res);
           if(res.data.user){
             store.dispatch('setUser', res.data.user);
             Swal.fire('Sucesso', 'Salvo com sucesso', 'success');
